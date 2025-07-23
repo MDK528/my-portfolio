@@ -17,8 +17,8 @@ function toggling(){
 }
   return (
     <>
-        <header className='w-full text-white sticky top-0 z-10 opacity-100 backdrop-blur-2xl'>
-            <nav className='w-full  border-b rounded-b-2xl  border-gray-700'>
+        <header className='w-full text-white sticky top-0 z-1 opacity-100 bg-transparent'>
+            <nav className='w-full  border-b rounded-b-2xl  border-gray-700 backdrop-blur-2xl'>
                 <div className='flex justify-between items-center px-5 md:px-8 py-5'>
                     <div>
                         <HashLink to='#' className='md:text-4xl md:font-bold text-2xl font-bold  cursor-pointer bg-linear-to-l from-yellow-500 to-[#949191] bg-clip-text text-transparent'>
