@@ -17,7 +17,7 @@ function toggling(){
 }
   return (
     <>
-        <header className='w-full text-white sticky top-0 z-1 opacity-100 bg-black'>
+        <header className='w-full text-white sticky top-0 z-10 opacity-100 backdrop-blur-2xl'>
             <nav className='w-full  border-b rounded-b-2xl  border-gray-700'>
                 <div className='flex justify-between items-center px-5 md:px-8 py-5'>
                     <div>
