@@ -29,7 +29,7 @@ function Home() {
         <div className='w-full text-white'>
             <div className='w-full  md:flex md:justify-between px-8 py-5'>
                 <div className='flex justify-center my-8'>
-                    <h1 className='text-4xl text-center  md:text-start font-bold md:text-7xl   bg-gradient-to-r from-teal-400 via-green-400 to-pink-500 bg-clip-text text-transparent'>
+                    <h1 className='text-4xl text-center  md:text-start font-bold md:text-7xl bg-gradient-to-r from-teal-400  to-pink-500 bg-clip-text text-transparent'>
                         Hi I'm
                         <br />
                         <span ref={element}></span>
@@ -42,12 +42,12 @@ function Home() {
             </div>
             <div className='px-16 py-4  flex flex-col md:flex md:flex-row '>
                 <HashLink to="#skills" 
-                className='text-[16px] md:text-[20px] text-center   font-mono  m-2 rounded-4xl px-6 py-2 bg-gradient-to-r from-blue-500 to-teal-700  cursor-pointer hover:-translate-y-0.5'> 
+                className='text-base md:text-xl text-center font-mono m-2 rounded-4xl px-6 py-2 bg-gradient-to-r from-teal-300 to-green-400  cursor-pointer hover:-translate-y-0.5'> 
                     Skills
                 </HashLink>
                 
                 <HashLink to='#'
-                className='text-[16px] md:text-[20px] text-center  font-mono  m-2 rounded-4xl px-6 py-2 bg-gradient-to-l from-blue-700 to-green-500  cursor-pointer hover:-translate-y-0.5'>Projects</HashLink>
+                className='text-base md:text-xl text-center font-mono m-2 rounded-4xl px-6 py-2 bg-gradient-to-l from-blue-700 to-green-500  cursor-pointer hover:-translate-y-0.5'>Projects</HashLink>
             </div>
         </div>
     </>
