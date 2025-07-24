@@ -7,26 +7,7 @@ function Footer() {
   return (
     <>
         <footer className='w-full text-white border-t rounded-t-2xl border-gray-700'>
-            <div className='flex justify-between items-center px-8 py-5'>
-                {/* <div className="">
-                    <Link to='/'>
-                        <h1 className='text-xl font-bold md:text-4xl md:font-bold bg-linear-to-l from-yellow-600 to-[#7f7b7b] bg-clip-text text-transparent'>Khalid</h1>
-                    </Link>
-                </div> */}
-                {/* <div className="">
-                    <ul className='flex gap-5 md:text-xl'>
-                        <li>
-                            <Link to='/about'>About</Link>    
-                        </li>
-                        <li>
-                            <Link to='/contact'>Contact</Link>
-                        </li>
-                    </ul>
-                </div> */}
-            </div>
-
-            <div className='my-5 flex justify-center items-center gap-2'>
-                
+            <div className='my-5 flex justify-center items-center gap-2 pt-5'>
                 <HashLink to="#" className='flex items-center gap-3'>
                     <img src={MyImage} 
                         className='w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover rounded-full '/>
@@ -60,7 +41,7 @@ function Footer() {
             </div>
 
 
-            <p className='text-[16px] md:text-[18px] text-center my-5'>All rights reserved</p>
+            <p className='text-sm md:text-lg text-center my-5'>All rights reserved</p>
         </footer>
     </>
   )
