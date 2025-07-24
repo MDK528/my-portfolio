@@ -19,7 +19,7 @@ function Skills() {
 
                     <div className= 'border rounded-2xl border-white px-5 py-5  hover:transform-[scale(1.05)]'>
                         <h1 className='text-2xl font-bold text-center'>Backend</h1>
-                        <p className='md:text-[20px] font-bold text-center py-4'>.NET(WebForms), Node.js, Express.js, Rest APIs</p>
+                        <p className='md:text-[20px] font-bold text-center py-4'>ASP.NET(WebForms), Node.js</p>
                     </div>
                     <div className= 'border rounded-2xl border-white px-5 py-5  hover:transform-[scale(1.05)]'>
                         <h1 className='text-2xl font-bold text-center'>Database</h1>
