@@ -27,7 +27,7 @@ function Skills() {
                     </div>
                     <div className= 'border rounded-2xl border-white px-5 py-5 hover:transform-[scale(1.05)]'>
                         <h1 className='text-2xl font-bold text-center'>Tools</h1>
-                        <p className='md:text-[20px] font-bold text-center py-4'>Git, GitHub, VS Code, AWS</p>
+                        <p className='md:text-[20px] font-bold text-center py-4'>Git, GitHub</p>
                     </div>
 
                 </div>
