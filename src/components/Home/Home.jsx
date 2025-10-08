@@ -2,7 +2,6 @@ import React from 'react'
 import MyImage from '../../Image/myimage-rounded.png'
 import Typed from 'typed.js';
 import { useRef, useEffect } from 'react';
-import {Link} from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 
 function Home() {
@@ -26,7 +25,7 @@ function Home() {
 
   return (
     <>
-        <div className='w-full text-white'>
+        <div className='w-full text-white pt-20'>
             <div className='w-full  md:flex md:justify-between px-8 py-5'>
                 <div className='flex justify-center my-8'>
                     <h1 className='text-4xl text-center  md:text-start font-bold md:text-7xl bg-gradient-to-r from-teal-300 to-green-400 bg-clip-text text-transparent'>

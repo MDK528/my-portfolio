@@ -1,7 +1,4 @@
 import React, {useState} from 'react'
-
-import {Link, NavLink} from 'react-router-dom'
-
 import {HashLink, NavHashLink} from 'react-router-hash-link'
 
 function Header() {
@@ -18,7 +15,7 @@ function toggling(){
   return (
     <>
         <header className='w-full text-white sticky top-0 z-1 opacity-100 bg-transparent'>
-            <nav className='w-full border-b rounded-b-2xl  border-gray-700 backdrop-blur-2xl'>
+            <nav className='w-full border-b rounded-b-2xl  border-gray-700 backdrop-blur-2xl fixed'>
                 <div className='flex justify-between items-center px-5 md:px-8 py-5'>
                     <div>
                         <HashLink to='#' className='md:text-4xl md:font-bold text-2xl font-bold  cursor-pointer bg-linear-to-l from-yellow-500 to-[#949191] bg-clip-text text-transparent'>
@@ -27,7 +24,7 @@ function toggling(){
                     </div>
 
                     <div className='hidden md:flex'>
-                        <ul className='flex gap-5   text-xl'>
+                        <ul className='flex gap-5 text-xl'>
                             <li>
                             <NavHashLink to="#" className='px-5 py-1.5 bg-[#212121] rounded-full hover:bg-slate-800'>
                                 Home
@@ -51,8 +48,6 @@ function toggling(){
                                 Contact
                             </NavHashLink>
                             </li>
-
-                            
                         </ul>
                     </div>
 
@@ -65,25 +60,25 @@ function toggling(){
                             isOpen ? 'transition-all delay-100 max-h-80 opacity-100' : 'max-h-0 opacity-0 delay-100'}`}>
                     <ul className='mx-auto flex flex-col justify-center items-center gap-5 py-5'>
                             <li>
-                            <NavHashLink to="#" className='px-5 py-1.5 bg-[#212121] rounded-full hover:bg-slate-800'>
+                            <NavHashLink to="#" className='px-5 py-1.5 hover:rounded-full hover:bg-slate-800'>
                                 Home
                             </NavHashLink>
                             </li>
 
                             <li>
-                            <NavHashLink to="#about" className='px-5 py-1.5 bg-[#212121] rounded-full hover:bg-slate-800'>
+                            <NavHashLink to="#about" className='px-5 py-1.5 hover:rounded-full hover:bg-slate-800'>
                                 About
                             </NavHashLink>
                             </li>
 
                             <li>
-                            <NavHashLink to="#contact" className='px-5 py-1.5 bg-[#212121] rounded-full hover:bg-slate-800'>
+                            <NavHashLink to="#contact" className='px-5 py-1.5 hover:rounded-full hover:bg-slate-800'>
                                 Contact
                             </NavHashLink>
                             </li>
 
                             <li>
-                            <NavHashLink to="#skills" className='px-5 py-1.5 bg-[#212121] rounded-full hover:bg-slate-800'>
+                            <NavHashLink to="#skills" className='px-5 py-1.5 hover:rounded-full hover:bg-slate-800'>
                                 Skills
                             </NavHashLink>
                             </li>
