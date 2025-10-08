@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Contact() {
   return (
@@ -27,10 +28,13 @@ function Contact() {
                 </div>
                 <div>
                   <h3 className='text-base md:text-lg font-semibold'>Email</h3>
-                  <a className='text-sm md:text-lg text-blue-200 hover:text-white transition-colors' 
-                     href="mailto:mdkhalidhossain528@gmail.com?subject=Hello%20there&body=This%20is%20a%20test%20message">
+                  <Link 
+                    to='mailto:mdkhalidhossain528@gmail.com'
+                    className='text-sm md:text-lg text-blue-200 hover:text-white transition-colors'
+                    target='_blank'
+                  >
                     mdkhalidhossain528@gmail.com
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -44,10 +48,10 @@ function Contact() {
                 </div>
                 <div>
                   <h3 className='text-base md:text-lg font-semibold'>WhatsApp</h3>
-                  <a className='text-sm md:text-lg text-green-200 hover:text-white transition-colors' 
-                     href="https://wa.me/+919002149405" target="_blank">
+                  <Link className='text-sm md:text-lg text-green-200 hover:text-white transition-colors' 
+                     to="https://wa.me/+919002149405" target="_blank">
                     Chat on WhatsApp
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -61,10 +65,10 @@ function Contact() {
                 </div>
                 <div>
                   <h3 className='text-base md:text-lg font-semibold'>Phone</h3>
-                  <a className='text-sm md:text-lg text-orange-200 hover:text-white transition-colors' 
-                     href="tel:+919002149405">
+                  <Link className='text-sm md:text-lg text-orange-200 hover:text-white transition-colors' 
+                     to="tel:+919002149405">
                     +91 9002149405
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -76,7 +80,7 @@ function Contact() {
 
             <div className='space-y-8'>
               
-              <a href='https://github.com/MDK528' className='block'>
+              <Link to='https://github.com/MDK528' target='_blank' className='block'>
                 <div className='bg-gradient-to-r from-gray-800 to-gray-600 rounded-2xl p-6 hover:scale-105 transition-transform duration-300'>
                   <div className='flex items-center gap-4'>
                     <div className='border  p-3 rounded-full'>
@@ -90,23 +94,25 @@ function Contact() {
                     </div>
                   </div>
                 </div>
-              </a>
-
-              <div className='bg-gradient-to-r from-blue-700 to-blue-500 rounded-2xl p-6 hover:scale-105 transition-transform duration-300'>
-                <div className='flex items-center gap-4'>
-                  <div className='border p-3 rounded-full'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
-                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className='text-base md:text-lg font-semibold'>LinkedIn</h3>
-                    <p className='text-sm md:text-lg text-blue-200'>Professional network</p>
+              </Link>
+              
+              <Link to="https://www.linkedin.com/in/md-khalid-hossain-0b9181381" target='_blank' className='block'>
+                <div className='bg-gradient-to-r from-blue-700 to-blue-500 rounded-2xl p-6 hover:scale-105 transition-transform duration-300'>
+                  <div className='flex items-center gap-4'>
+                    <div className='border p-3 rounded-full'>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className='text-base md:text-lg font-semibold'>LinkedIn</h3>
+                      <p className='text-sm md:text-lg text-blue-200'>Professional network</p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Link>
 
-              <a href="https://instagram.com/mdk_5_2_8" className='block'>
+              <Link to="https://instagram.com/mdk_5_2_8" target='_blank' className='block'>
                 <div className='bg-gradient-to-r from-pink-600 to-purple-600 rounded-2xl p-6 hover:scale-105 transition-transform duration-300'>
                   <div className='flex items-center gap-4'>
                     <div className='border p-3 rounded-full'>
@@ -120,7 +126,7 @@ function Contact() {
                     </div>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -132,10 +138,10 @@ function Contact() {
             <p className='text-base md:text-lg text-gray-200 mb-6'>
               I'm always open to discussing new opportunities and interesting projects.
             </p>
-            <a href="mailto:mdkhalidhossain528@gmail.com" 
+            <Link to="mailto:mdkhalidhossain528@gmail.com" 
                className='bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors'>
               Send Message
-            </a>
+            </Link>
           </div>
         </div>
         </div>
