@@ -13,7 +13,6 @@ function Footer() {
                         className='w-[40px] h-[40px] md:w-[50px] md:h-[50px] object-cover rounded-full '/>
                     <span  className='text-xl md:text-2xl font-bold'>Md Khalid Hossain</span>
                 </HashLink>
-                
             </div>
 
             <div className='flex gap-5 justify-center items-center my-5.5'>
