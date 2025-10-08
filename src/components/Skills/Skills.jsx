@@ -14,20 +14,20 @@ function Skills() {
                 
                     <div className= 'border rounded-2xl border-white px-5 py-5  hover:transform-[scale(1.05)]'>
                         <h1 className='text-2xl font-bold text-center'>Frontend</h1>
-                        <p className='md:text-[20px] font-bold text-center py-4'>HTML5, CSS3, Tailwind, Javascript, React</p>
+                        <p className='text-base font-semibold text-center py-4'>HTML5, CSS3, Tailwind, Javascript, React</p>
                     </div>
 
-                    <div className= 'border rounded-2xl border-white px-5 py-5  hover:transform-[scale(1.05)]'>
+                    <div className= 'border rounded-2xl border-white px-5 py-5 hover:transform-[scale(1.05)]'>
                         <h1 className='text-2xl font-bold text-center'>Backend</h1>
-                        <p className='md:text-[20px] font-bold text-center py-4'>ASP.NET(WebForms), Node.js</p>
+                        <p className='text-base font-semibold text-center py-4'>Node.js, Express.js</p>
                     </div>
                     <div className= 'border rounded-2xl border-white px-5 py-5  hover:transform-[scale(1.05)]'>
                         <h1 className='text-2xl font-bold text-center'>Database</h1>
-                        <p className='md:text-[20px] font-bold text-center py-4'>MySQL, MSSQL</p>
+                        <p className='text-base font-semibold text-center py-4'>MySQL, MSSQL</p>
                     </div>
                     <div className= 'border rounded-2xl border-white px-5 py-5 hover:transform-[scale(1.05)]'>
                         <h1 className='text-2xl font-bold text-center'>Tools</h1>
-                        <p className='md:text-[20px] font-bold text-center py-4'>Git, GitHub</p>
+                        <p className='text-base font-semibold text-center py-4'>Git, GitHub, VS Code</p>
                     </div>
 
                 </div>
