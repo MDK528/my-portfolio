@@ -9,9 +9,14 @@ const menuClose = <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox=
 
 const [isOpen, setIsOpen] = useState(false)
 
-function toggling(){
-    setIsOpen(!isOpen)
-}
+// function toggling(){
+//     setIsOpen(!isOpen)
+// }
+
+function toggling (e){
+    e.preventDefault()
+    setIsOpen(prev => !prev)
+  }
   return (
     <>
         <header className='w-full text-white sticky top-0 z-1 opacity-100 bg-transparent'>
@@ -59,25 +64,25 @@ function toggling(){
                 <div className={`md:hidden ${
                             isOpen ? 'transition-all delay-100 max-h-80 opacity-100' : 'max-h-0 opacity-0 delay-100'}`}>
                     <ul className='mx-auto flex flex-col justify-center items-center gap-5 py-5'>
-                            <li>
+                            <li  onClick={toggling}>
                             <NavHashLink to="#" className='px-5 py-1.5 hover:rounded-full hover:bg-slate-800'>
                                 Home
                             </NavHashLink>
                             </li>
 
-                            <li>
+                            <li  onClick={toggling}>
                             <NavHashLink to="#about" className='px-5 py-1.5 hover:rounded-full hover:bg-slate-800'>
                                 About
                             </NavHashLink>
                             </li>
 
-                            <li>
+                            <li  onClick={toggling}>
                             <NavHashLink to="#contact" className='px-5 py-1.5 hover:rounded-full hover:bg-slate-800'>
                                 Contact
                             </NavHashLink>
                             </li>
 
-                            <li>
+                            <li  onClick={toggling}>
                             <NavHashLink to="#skills" className='px-5 py-1.5 hover:rounded-full hover:bg-slate-800'>
                                 Skills
                             </NavHashLink>

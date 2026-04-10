@@ -4,9 +4,9 @@ function Projects()
 {
   return (
     <section id='projects'>
-      <div className='w-full text-white my-6 md:px-10 px-8 py-5'>
+      <div className='w-full text-white my-6 md:px-10 px-8 py-5 md:flex md:flex-wrap md:justify-center gap-6'>
 
-        <div className='rounded-2xl px-5 py-5 flex justify-center'>
+        <div className='rounded-2xl py-5 '>
             <a href="https://fullstack-notes-app-phi.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
