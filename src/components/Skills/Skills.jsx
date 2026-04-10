@@ -14,7 +14,7 @@ function Skills() {
                 
                     <div className= 'border rounded-2xl border-white px-5 py-5  hover:transform-[scale(1.05)]'>
                         <h1 className='text-2xl font-bold text-center'>Frontend</h1>
-                        <p className='text-base font-semibold text-center py-4'>HTML5, CSS3, Tailwind, Javascript, React</p>
+                        <p className='text-base font-semibold text-center py-4'>HTML5, CSS3, Tailwind, Javascript, Typescript, React</p>
                     </div>
 
                     <div className= 'border rounded-2xl border-white px-5 py-5 hover:transform-[scale(1.05)]'>
@@ -23,11 +23,11 @@ function Skills() {
                     </div>
                     <div className= 'border rounded-2xl border-white px-5 py-5  hover:transform-[scale(1.05)]'>
                         <h1 className='text-2xl font-bold text-center'>Database</h1>
-                        <p className='text-base font-semibold text-center py-4'>MySQL, MSSQL</p>
+                        <p className='text-base font-semibold text-center py-4'>PostgreSQL, Drizzle ORM, MongoDB, Mongoose ODM, MySQL</p>
                     </div>
                     <div className= 'border rounded-2xl border-white px-5 py-5 hover:transform-[scale(1.05)]'>
                         <h1 className='text-2xl font-bold text-center'>Tools</h1>
-                        <p className='text-base font-semibold text-center py-4'>Git, GitHub, VS Code</p>
+                        <p className='text-base font-semibold text-center py-4'>Git, GitHub, VS Code, Postman, Vercel</p>
                     </div>
 
                 </div>
