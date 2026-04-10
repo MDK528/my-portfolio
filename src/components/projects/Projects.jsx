@@ -31,7 +31,7 @@ function Projects()
                   AI Notes App
                 </h3>
 
-                <p className="text-[#8a8a9a] text-md  leading-relaxed font-light mb-4">
+                <p className="text-[#ababc6] text-md  leading-relaxed font-light mb-4">
                   A smart note-taking app powered by Google Gemini API. Capture, organize,
                   and query your notes with AI-assisted search.
                 </p>
@@ -41,7 +41,7 @@ function Projects()
                     {["React", "Express.js", "MongoDB"].map((tech) => (
                       <span
                         key={tech}
-                        className="text-[0.65rem] text-[#6b7280] bg-[#1e1e24] border border-[#2a2a34] px-3 py-1.5 rounded-md font-medium"
+                        className="text-[0.75rem] text-[#8992a6] bg-[#1e1e24] border border-[#2a2a34] px-3 py-1.5 rounded-md font-medium"
                       >
                         {tech}
                       </span>
