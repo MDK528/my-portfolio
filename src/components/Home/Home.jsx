@@ -45,7 +45,7 @@ function Home() {
                     Skills
                 </HashLink>
                 
-                <HashLink to='#'
+                <HashLink to='#projects'
                 className='text-base md:text-xl text-center font-mono m-2 rounded-4xl px-6 py-2 bg-gradient-to-l from-blue-500 to-teal-400  cursor-pointer hover:-translate-y-0.5'>Projects</HashLink>
             </div>
         </div>

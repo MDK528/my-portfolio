@@ -7,6 +7,7 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Skills from './components/Skills/Skills'
+import Projects from './components/projects/Projects'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Home/>
         <About/>
         <Skills/>
+        <Projects/>
         <Contact/>
       </main>
       <Footer/>
