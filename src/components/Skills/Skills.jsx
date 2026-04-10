@@ -6,26 +6,26 @@ function Skills() {
         <section id='skills'>
             <div className='w-full text-white my-6 md:px-10 px-8 py-5'>
 
-            <div className='border border-white rounded-2xl px-5 py-5 bg-gradient-to-t from-blue-600 to-teal-600'>
+            <div className=' rounded-2xl px-5 py-5 bg-gradient-to-t from-blue-600 to-teal-600'>
 
                 <h1 className='text-center text-3xl font-bold'>Skills</h1>
 
                 <div className='flex flex-col gap-5 md:grid md:grid-cols-4 md:gap-5 px-5 py-5'>
                 
-                    <div className= 'border rounded-2xl border-white px-5 py-5  hover:transform-[scale(1.05)]'>
+                    <div className= 'border rounded-2xl border-white px-5 py-5  hover:transform-[scale(1.05)]  hover:duration-300 duration-200'>
                         <h1 className='text-2xl font-bold text-center'>Frontend</h1>
                         <p className='text-base font-semibold text-center py-4'>HTML5, CSS3, Tailwind, Javascript, Typescript, React</p>
                     </div>
 
-                    <div className= 'border rounded-2xl border-white px-5 py-5 hover:transform-[scale(1.05)]'>
+                    <div className= 'border rounded-2xl border-white px-5 py-5 hover:transform-[scale(1.05)] hover:duration-300 duration-200'>
                         <h1 className='text-2xl font-bold text-center'>Backend</h1>
                         <p className='text-base font-semibold text-center py-4'>Node.js, Express.js</p>
                     </div>
-                    <div className= 'border rounded-2xl border-white px-5 py-5  hover:transform-[scale(1.05)]'>
+                    <div className= 'border rounded-2xl border-white px-5 py-5  hover:transform-[scale(1.05)] hover:duration-300 duration-200'>
                         <h1 className='text-2xl font-bold text-center'>Database</h1>
                         <p className='text-base font-semibold text-center py-4'>PostgreSQL, Drizzle ORM, MongoDB, Mongoose ODM, MySQL</p>
                     </div>
-                    <div className= 'border rounded-2xl border-white px-5 py-5 hover:transform-[scale(1.05)]'>
+                    <div className= 'border rounded-2xl border-white px-5 py-5 hover:transform-[scale(1.05)] hover:duration-300 duration-200'>
                         <h1 className='text-2xl font-bold text-center'>Tools</h1>
                         <p className='text-base font-semibold text-center py-4'>Git, GitHub, VS Code, Postman, Vercel</p>
                     </div>
