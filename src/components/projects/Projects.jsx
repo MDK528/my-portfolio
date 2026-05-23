@@ -1,16 +1,37 @@
 import React from 'react'
 import ainotesappImg from '../../Image/ainotesappImg.png'
+import urbidoreImg from '../../Image/urbidoreImg.png'
 function Projects()
 {
+
+  const projects = [
+    {
+      url: "https://fullstack-notes-app-phi.vercel.app/",
+      title: "AI Notes App",
+      description: "A smart note-taking app powered by Google Gemini API. Capture, organize, and query your notes with AI-assisted search.",
+      img: ainotesappImg,
+      stack: ["React", "Express.js", "MongoDB"]
+    },
+
+    {
+      url: "https://urbidore.mdkhalid.site/",
+      title: "Urbidore",
+      description: "A local services platform connecting customers with skilled professionals. Book, track, and manage services seamlessly with real-time status updates.",
+      img: urbidoreImg,
+      stack: ["React", "Express.js", "PostgreSQL", "Typescript"]
+    }
+  ]
+
   return (
     <section id='projects'>
       <div className='w-full text-white my-6 md:px-10 px-8 py-5 md:flex md:flex-wrap md:justify-center gap-6'>
 
-        <div className='rounded-2xl py-5 '>
-            <a href="https://fullstack-notes-app-phi.vercel.app/"
+        {projects.map((project) => (
+          <div className='rounded-2xl py-5 '>
+            <a href={project.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full max-w-sm bg-[#16161a] border border-[#2a2a30] rounded-2xl overflow-hidden cursor-pointer no-underline
+              className="block w-full max-w-[420px] bg-[#16161a] border border-[#2a2a30] rounded-2xl overflow-hidden cursor-pointer no-underline
                         transition-all duration-300 hover:-translate-y-1 hover:border-[#0367f229] hover:shadow-[0_20px_40px_-10px_rgba(92,106,196,0.2)]"
             >
               <div className="w-full h-[200px] overflow-hidden relative">
@@ -19,7 +40,7 @@ function Projects()
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#16161a] pointer-events-none z-[1]" />
                 <img
-                  src={ainotesappImg}
+                  src={project.img}
                   alt="Project screenshot"
                   className="w-full h-full object-cover transition-transform duration-500 ease-out hover:scale-[1.08]
                             group-hover:scale-[1.08]"
@@ -28,20 +49,19 @@ function Projects()
 
               <div className="px-5 pt-4 pb-5">
                 <h3 className="font-bold text-[#f0f0f5] text-[1.05rem] mb-1.5 tracking-tight">
-                  AI Notes App
+                  {project.title}
                 </h3>
 
                 <p className="text-[#ababc6] text-md  leading-relaxed font-light mb-4">
-                  A smart note-taking app powered by Google Gemini API. Capture, organize,
-                  and query your notes with AI-assisted search.
+                  {project.description}
                 </p>
 
                 <div className="flex items-center justify-between">
                   <div className="flex gap-1.5 flex-wrap">
-                    {["React", "Express.js", "MongoDB"].map((tech) => (
+                    {project.stack.map((tech) => (
                       <span
                         key={tech}
-                        className="text-[0.75rem] text-[#8992a6] bg-[#1e1e24] border border-[#2a2a34] px-3 py-1.5 rounded-md font-medium"
+                        className="text-[0.75rem] text-[#8992a6] bg-[#1e1e24] border border-[#2a2a34] px-2.5 py-1.5 rounded-md font-medium"
                       >
                         {tech}
                       </span>
@@ -58,7 +78,7 @@ function Projects()
             </a>
 
         </div>
-
+        ))}
       </div>
     </section>
   )
