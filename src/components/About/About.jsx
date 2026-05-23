@@ -8,9 +8,9 @@ function About()
                 <div className='px-5 py-3  flex justify-start'>
                     <div>
                             <h2 className='text-2xl md:text-3xl font-bold mb-4'> About Me</h2>
-                            <p className='text-base md:text-xl'>
-                                I'm Md Khalid Hossain, a self-taught full-stack developer with a focus on building production-ready web applications. My core stack is JavaScript, Node.js, Express, and React — and I'm currently deepening my backend expertise with TypeScript, Drizzle ORM, PostgreSQL.
-                                I've shipped real project including a full-stack AI-powered notes app.
+                            <p className='text-base md:text-xl leading-normal'>
+                                I'm Md Khalid Hossain, a full-stack developer focus on building production-ready web applications. My core stack is JavaScript, TypeScript, Node.js, Express, and React, with a strong focus on backend development using PostgreSQL and Drizzle ORM.
+                                I've shipped real projects including <span className='font-bold'>Urbidore</span>, a full-stack local services platform connecting customers with skilled professionals.
                             </p>
                         </div>
                 </div>
